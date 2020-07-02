@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм» [![Build status][travis-image]][travis-url]
 
 * Студент: [Роман Голота](https://up.htmlacademy.ru/javascript/20/user/803115).
-* Наставник: `Неизвестно`.
+* Наставник: `Нет наставника`.
 
 ---
 
