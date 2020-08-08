@@ -39,7 +39,7 @@
             </fieldset>
 
             <!-- Форма редактирования изображения -->
-            <div class="img-upload__overlay  hidden">
+            <div class="img-upload__overlay  hidden" method="post" enctype="multipart/form-data" action="https://javascript.pages.academy/kekstagram">
               <div class="img-upload__wrapper">
                 <div class="img-upload__preview-container">
 
@@ -119,7 +119,7 @@
                 <!-- Добавление хэш-тегов и комментария к изображению -->
                 <fieldset class="img-upload__text text">
                   <input class="text__hashtags" name="hashtags" placeholder="#ХэшТег">
-                  <textarea class="text__description" name="description" placeholder="Ваш комментарий..."></textarea>
+                  <textarea class="text__description" name="description" placeholder="Ваш комментарий..." maxlength="20"></textarea>
                 </fieldset>
 
                 <!-- Кнопка для отправки данных на сервер -->
@@ -234,6 +234,8 @@
   </template>
 
 <script src="js/main.js"></script>
+<script src="js/dragging.js"></script>
+<script src="js/validation.js"></script>
 
 </body>
 </html>
